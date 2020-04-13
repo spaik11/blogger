@@ -16,7 +16,7 @@ class App extends Component {
     };
 
     onUpdate = (id) => {
-        console.log(id)
+        console.log('Update:', id)
     }
 
     handleChange = (event) => {

@@ -23,7 +23,7 @@ const blogItem = ({ onDelete, onUpdate, blog: { title, author, subject, article,
                 style={{ margin: '10px 15px' }}
                 onClick={() => onDelete(objectId)}>Delete</Button>
             <Button 
-                className='ui blue button'
+                className='ui green button'
                 style={{ margin: '10px 15px' }}
                 onClick={() => onUpdate(objectId)}>Update</Button>
         </div>
